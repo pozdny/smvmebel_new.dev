@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Xeon | OnePage Responsive Theme</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <header id="header" role="banner">
+        <div class="container">
+            <div id="navbar" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"> <span class="txt-logo1">Офисная мебель</span> <span class="txt-logo">в Новосибирске</span></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#main-slider"><i class="icon-home"></i></a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#services">Преимущества</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header><!--/#header-->
+
+    <section id="main-slider" class="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>Free Onepage Theme</h1>
+                        <p class="lead">Xeon is the best free onepage responsive theme available arround the globe<br>Download it right now for free</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content">
+                        <h1>ShapeBootstrap.net</h1>
+                        <p class="lead">Download free but 100% premium quaility twitter Bootstrap based WordPress and HTML themes <br>from shapebootstrap.net</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><i class="icon-angle-left"></i></a>
+        <a class="next" href="#main-slider" data-slide="next"><i class="icon-angle-right"></i></a>
+    </section><!--/#main-slider-->
+
+    <section id="catalog">
+        <div class="container">
+            <div class="box">
+                <div class="center gap">
+                    <h2>Каталог</h2>
+                    <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac<br>turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                </div><!--/.center-->
+                <ul class="portfolio-filter">
+                    <li><a class="btn btn-primary active" href="#" data-filter="*">Все</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".boss">Кресла для руководителей</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".empl">Кресла для персонала</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".client">Кресла для посетителей</a></li>
+                    <li><a class="btn btn-primary" href="#" data-filter=".sofa">Диваны и пуфы</a></li>
+                    <!--<li><a class="btn btn-primary" href="#" data-filter=".mebel">Корпусная мебель</a></li>-->
+                </ul><!--/#portfolio-filter-->
+                <ul class="portfolio-items col-4 visible-lg">
+                    <li class="portfolio-item boss">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="boss-prem" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>boss-prem</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item boss">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr2">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/alaska.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Alaska" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Alaska</h5>
+                            <div class="bottom">
+                                <div class="price">5200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+
+                    </li> <!--/.portfolio-item-->
+                    <li class="portfolio-item empl">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr3">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/empl/briz.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="briz" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>briz</h5>
+                            <div class="bottom">
+                                <div class="price">3200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+
+                    </li> <!--/.portfolio-item-->
+                    <li class="portfolio-item empl">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Kanzas" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Kanzas</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item empl">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Kanzas" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Kanzas</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item client">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Kanzas" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Kanzas</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item sofa">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Kanzas" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Kanzas</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                    <li class="portfolio-item sofa">
+                        <div class="main-block">
+                            <div class="item-inner" data-toggle="modal" data-target="#kr1">
+                                <div class="portfolio-image">
+                                    <img src="img/catalog/boss/boss-prem.jpg" alt="">
+                                    <div class="overlay">
+                                        <a class="preview btn btn-danger" title="Kanzas" href="#"><i class="icon-eye-open"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5>Kanzas</h5>
+                            <div class="bottom">
+                                <div class="price">2200 р.</div>
+                                <div class="order"> <a class="btn btn-danger" href="#" >Заказать</a> </div>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                </ul>   
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+
+    <section id="services">
+        <div class="container">
+            <div class="box first">
+                <div class="center gap">
+                    <h2>Преимущества</h2>
+                    <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac<br>turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                </div><!--/.center-->
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-apple icon-md icon-color1"></i>
+                            <h4>Доставка в кратчайшие сроки</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-android icon-md icon-color2"></i>
+                            <h4>Бесплатна доставка по городу при заказе от 30000 руб.</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-windows icon-md icon-color3"></i>
+                            <h4>Гарантия на изделия 1 год</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-html5 icon-md icon-color4"></i>
+                            <h4>Доставим даже 1 стул</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-css3 icon-md icon-color5"></i>
+                            <h4>Javascript development</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="center">
+                            <i class="icon-thumbs-up icon-md icon-color6"></i>
+                            <h4>Responsive web design</h4>
+                            <p></p>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="box last">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1>Напишите нам</h1>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <div class="status alert alert-success" style="display: none"></div>
+                        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" required="required" placeholder="Email address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div><!--/.col-sm-6-->
+                    <div class="col-sm-6">
+                        <h1>Адрес</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>Twitter, Inc.</strong><br>
+                                    795 Folsom Ave, Suite 600<br>
+                                    San Francisco, CA 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>
+                            <div class="col-md-6">
+                                <address>
+                                    <strong>Twitter, Inc.</strong><br>
+                                    795 Folsom Ave, Suite 600<br>
+                                    San Francisco, CA 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>
+                        </div>
+                        <h1>...</h1>
+                        <div class="row">
+
+                        </div>
+                    </div><!--/.col-sm-6-->
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <img class="pull-right" src="images/shapebootstrap.png" alt="ShapeBootstrap" title="ShapeBootstrap">
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="kr1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="product_info">
+                        <div class="product_images">
+                            <div class="main_image">
+                                <img title="Kanzas" src="img/catalog/boss/boss-prem.jpg">
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <h3 class="modal-title">boss-prem</h3>
+                            <p>
+                                Кресло Аляска из серии для руководителей «Классик» – удачное решение для Вашего офиса. Элегантность данной модели подчеркнет убранство Вашего интерьера. Кресло выполнено из искусственной
+                                кожи легкой в уходе, стойкой к износу, мягкой, эластичной, соответствующей всем технологичным требованиям.<br>
+                                <strong>Регулировки:</strong> Регулировка высоты сиденья системой газлифт<br>
+                                <strong>Высота подъема:</strong> 45-60 см<br>
+                                <strong>Механизмы качания:</strong> Топ-ган, с возможностью фиксации в верхнем положении<br>
+                                <strong>Крестовина:</strong> Пластик повышенной прочности (стеклонаполненный полиамид)<br>
+                                <strong>Подлокотники:</strong> Пластик со вставками из искусственной кожи<br>
+                                <strong>Материал:</strong> Искусственная кожа, стойкая к износу. Срок службы при ежедневном использовании 3 года<br>
+                                <strong>Размеры спинки ВхШ, см:</strong> 71х52<br>
+                                <strong>Размеры сиденья ГхШ, см:</strong> 47х52
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="kr2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="product_info">
+                        <div class="product_images">
+                            <div class="main_image">
+                                <img title="Kanzas" src="img/catalog/boss/alaska.jpg">
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <h3 class="modal-title">alaska</h3>
+                            <p>
+                                Кресло Аляска из серии для руководителей «Классик» – удачное решение для Вашего офиса. Элегантность данной модели подчеркнет убранство Вашего интерьера. Кресло выполнено из искусственной
+                                кожи легкой в уходе, стойкой к износу, мягкой, эластичной, соответствующей всем технологичным требованиям.<br>
+                                <strong>Регулировки:</strong> Регулировка высоты сиденья системой газлифт<br>
+                                <strong>Высота подъема:</strong> 45-60 см<br>
+                                <strong>Механизмы качания:</strong> Топ-ган, с возможностью фиксации в верхнем положении<br>
+                                <strong>Крестовина:</strong> Пластик повышенной прочности (стеклонаполненный полиамид)<br>
+                                <strong>Подлокотники:</strong> Пластик со вставками из искусственной кожи<br>
+                                <strong>Материал:</strong> Искусственная кожа, стойкая к износу. Срок службы при ежедневном использовании 3 года<br>
+                                <strong>Размеры спинки ВхШ, см:</strong> 71х52<br>
+                                <strong>Размеры сиденья ГхШ, см:</strong> 47х52
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="kr3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="product_info">
+                        <div class="product_images">
+                            <div class="main_image">
+                                <img title="Kanzas" src="img/catalog/empl/briz.jpg">
+                            </div>
+                        </div>
+                        <div class="right_block">
+                            <h3 class="modal-title">briz</h3>
+                            <p>
+                                Кресло Аляска из серии для руководителей «Классик» – удачное решение для Вашего офиса. Элегантность данной модели подчеркнет убранство Вашего интерьера. Кресло выполнено из искусственной
+                                кожи легкой в уходе, стойкой к износу, мягкой, эластичной, соответствующей всем технологичным требованиям.<br>
+                                <strong>Регулировки:</strong> Регулировка высоты сиденья системой газлифт<br>
+                                <strong>Высота подъема:</strong> 45-60 см<br>
+                                <strong>Механизмы качания:</strong> Топ-ган, с возможностью фиксации в верхнем положении<br>
+                                <strong>Крестовина:</strong> Пластик повышенной прочности (стеклонаполненный полиамид)<br>
+                                <strong>Подлокотники:</strong> Пластик со вставками из искусственной кожи<br>
+                                <strong>Материал:</strong> Искусственная кожа, стойкая к износу. Срок службы при ежедневном использовании 3 года<br>
+                                <strong>Размеры спинки ВхШ, см:</strong> 71х52<br>
+                                <strong>Размеры сиденья ГхШ, см:</strong> 47х52
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

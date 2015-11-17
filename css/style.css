@@ -1,0 +1,117 @@
+/*
+	==================
+	[MIXIN]
+	==================
+*/
+body.modal-open {
+  margin-right: 0;
+  overflow: auto; }
+
+#main-slider {
+  background-image: url("../images/slider-bg2.jpg"); }
+
+.navbar-default .navbar-brand {
+  height: 50px;
+  padding: 7px 5px 5px 45px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: url("../images/logo.png") no-repeat 0 50%; }
+  .navbar-default .navbar-brand .txt-logo {
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 0.9; }
+.navbar-default .navbar-nav > li > a {
+  padding: 16px 25px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #999; }
+
+.carousel-content .lead {
+  font-size: 2.3em; }
+
+section {
+  overflow: hidden; }
+  section .box {
+    padding: 20px 20px; }
+    section .box.first {
+      margin-top: 0; }
+      section .box.first .center h4 {
+        height: 40px; }
+  section .portfolio-filter {
+    margin-bottom: 30px; }
+    section .portfolio-filter > li > a {
+      font-size: 1.3em; }
+  section .portfolio-items .portfolio-item .main-block {
+    margin: 0 20px 10px 0;
+    border-top: solid 1px #e5e5e5;
+    border-left: solid 1px #e5e5e5;
+    border-right: solid 1px #e5e5e5;
+    border-bottom: solid 1px #e5e5e5; }
+    section .portfolio-items .portfolio-item .main-block .item-inner {
+      margin-bottom: 0px;
+      margin-right: 0px;
+      border-bottom-width: 0px; }
+      section .portfolio-items .portfolio-item .main-block .item-inner .overlay .preview:focus {
+        outline: none; }
+      section .portfolio-items .portfolio-item .main-block .item-inner:hover .overlay {
+        opacity: 1;
+        cursor: pointer; }
+      section .portfolio-items .portfolio-item .main-block .item-inner .portfolio-image img {
+        width: auto !important;
+        height: 166px; }
+    section .portfolio-items .portfolio-item .main-block h5 {
+      padding: 0 0 5px 10px;
+      height: 20px; }
+    section .portfolio-items .portfolio-item .main-block .bottom {
+      padding: 0  10px;
+      height: 36px; }
+      section .portfolio-items .portfolio-item .main-block .bottom .price {
+        width: 115px;
+        float: left;
+        padding: 3px 0;
+        color: red;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left; }
+      section .portfolio-items .portfolio-item .main-block .bottom .order {
+        float: left;
+        margin-left: 115px;
+        text-align: right; }
+        section .portfolio-items .portfolio-item .main-block .bottom .order .btn {
+          padding: 3px 12px; }
+
+.modal {
+  overflow-y: auto;
+  position: fixed; }
+  .modal.modal-open {
+    overflow: auto; }
+  .modal .modal-dialog {
+    padding-top: 80px;
+    width: 900px; }
+    .modal .modal-dialog .modal-content .modal-header {
+      border-bottom-width: 0px;
+      padding: 5px; }
+    .modal .modal-dialog .modal-content .modal-body .product_info .right_block {
+      margin-left: 350px;
+      color: #363636; }
+    .modal .modal-dialog .modal-content .modal-body .product_info .product_images {
+      width: 343px;
+      float: left;
+      position: relative; }
+      .modal .modal-dialog .modal-content .modal-body .product_info .product_images .main_image {
+        background-color: white;
+        -webkit-box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.45);
+        -moz-box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.45);
+        box-shadow: 4px 4px 2px 0px rgba(50, 50, 50, 0.45);
+        border: 1px solid #e7e7e7;
+        height: 252px;
+        /*margin-bottom: 13px;*/
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        width: 291px; }
+        .modal .modal-dialog .modal-content .modal-body .product_info .product_images .main_image img {
+          height: 250px; }
+
+/*# sourceMappingURL=style.css.map */
